@@ -1,0 +1,134 @@
+
+body
+{
+    width: 60%;
+    border-top:none;
+    margin:auto;
+}
+
+header
+{
+    z-index:3;
+    width:60%;
+    height: 60px;
+    position: fixed;
+    top:0;
+    padding:10px;
+    background-color: CadetBlue;
+    transition:background-color 2s;
+    color: white;
+    font-family:sans-serif;
+}
+
+header:hover
+{
+    background-color:SteelBlue;
+}
+
+header p
+{
+    margin: 0;
+    font-size:10pt;
+}
+
+header h2
+{
+    margin:0;
+    font-size: 20pt;
+}
+
+article
+{
+    padding-top:80px;
+}
+
+aside
+{
+    color: CadetBlue;
+    font-family:sans-serif;
+    font-size:13pt;
+}
+
+ul
+{
+    list-style-type:none;
+    padding:10px;
+}
+
+li
+{
+    color: gray;
+    font-family:sans-serif;
+    font-size:12pt;
+    text-decoration-line:underline;
+}
+
+p
+{
+    padding: 0;
+    margin:0;
+}
+
+hr
+{
+    border-color: CadetBlue;
+}
+
+progress{
+  background-color: WhiteSmoke;
+  border: 0;
+  height: 18px;
+  color:CadetBlue;
+}
+
+progress::-webkit-progress-bar
+{
+  background-color: WhiteSmoke;
+  border: 0;
+  height: 18px;
+}
+
+progress::-webkit-progress-value
+{
+    background: CadetBlue;
+}
+
+.tbl
+{
+    display:table;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.row
+{
+    display:table-row;
+}
+.cell
+{
+    vertical-align:middle;
+    display:table-cell;
+}
+
+.toLeft
+{
+    position: relative;
+    left:-20px;
+}
+
+.withBorder
+{
+    border-left: 1px solid CadetBlue;
+}
+
+img
+{
+    width:200px;
+    filter:grayscale(100%);
+    transition: filter 1s;
+}
+
+img:hover
+{
+    filter:grayscale(0%);
+}
