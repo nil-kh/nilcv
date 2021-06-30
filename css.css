@@ -110,12 +110,6 @@ progress::-webkit-progress-value
     display:table-cell;
 }
 
-toLeft
-{
-    position: relative;
-    left:-20px;
-}
-
 .withBorder
 {
     border-left: 1px solid CadetBlue;
