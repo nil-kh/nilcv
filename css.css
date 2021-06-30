@@ -103,7 +103,6 @@ progress::-webkit-progress-value
 .row
 {
     display:table-row;
-padding-left:10px;
 }
 .cell
 {
