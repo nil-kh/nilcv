@@ -97,7 +97,7 @@ progress::-webkit-progress-value
 {
     display:table;
     border-collapse: separate;
-    border-spacing: 20px;
+    
 }
 
 .row
@@ -114,6 +114,9 @@ progress::-webkit-progress-value
 .withBorder
 {
     border-left: 1px solid CadetBlue;
+
+border-right: 1px solid CadetBlue;
+
 }
 
 img
