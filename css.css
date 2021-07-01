@@ -97,7 +97,7 @@ progress::-webkit-progress-value
 {
     display:table;
     border-collapse: separate;
-    border-spacing: 10px;
+    border-spacing: 20px;
 }
 
 .row
