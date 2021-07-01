@@ -28,13 +28,13 @@ header:hover
 header p
 {
     margin: 0;
-    font-size:8pt;
+    font-size:10pt;
 }
 
 header h2
 {
     margin:0;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 article
@@ -46,7 +46,7 @@ aside
 {
     color: CadetBlue;
     font-family:sans-serif;
-    font-size:11pt;
+    font-size:13pt;
 }
 
 ul
@@ -58,7 +58,7 @@ li
 {
     color: gray;
     font-family:sans-serif;
-    font-size:10pt;
+    font-size:12pt;
     text-decoration-line:underline;
 }
 
