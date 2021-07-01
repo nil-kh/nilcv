@@ -109,13 +109,13 @@ progress::-webkit-progress-value
     vertical-align:middle;
     display:table-cell;
 
+border-spacing: 5px 1rem;
+
 }
 
 .withBorder
 {
     border-left: 1px solid CadetBlue;
-
-border-right: 1px solid CadetBlue;
 
 }
 
